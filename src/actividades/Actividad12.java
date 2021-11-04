@@ -12,7 +12,6 @@ public class Actividad12 {
 		ha salido cada una de las caras del lado. (Los resultados tienen que salir en
 		porcentajes). */
 
-		
 		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		Random random = new Random();
 
