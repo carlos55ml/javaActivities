@@ -148,8 +148,7 @@ public class Actividad13 {
                     if (validNum) {
                         if (hl >= 0 && hl <= 59) {
                             if (dl == ds && hl < hs) {
-                                System.out.print(
-                                        "\n[ERROR]: La hora de llegada no puede ser anterior a la hora de salida en el mismo dia");
+                                System.out.print("\n[ERROR]: La hora de llegada no puede ser anterior a la hora de salida en el mismo dia");
                                 validNum = false;
                             }
                         } else {
@@ -174,8 +173,7 @@ public class Actividad13 {
                     if (validNum) {
                         if (ml >= 0 && ml <= 59) {
                             if (dl == ds && hl == hs && ml < ms) {
-                                System.out.print(
-                                        "\n[ERROR]: Lo minutos de llegada no pueden ser anteriores a los de salida para el mismo dia a la misma hora.");
+                                System.out.print("\n[ERROR]: Lo minutos de llegada no pueden ser anteriores a los de salida para el mismo dia a la misma hora.");
                                 validNum = false;
                             }
                         } else {
@@ -239,7 +237,7 @@ public class Actividad13 {
 
             // es posible que el viaje no tarde ni un minuto. presentamos posibilidad
             if (td == 0 && th == 0 && tm == 0) {
-                System.out.print("VIAJE SUPERSONICO. TU TREN TARDA MENOS DE 1 MINUTO!!");
+                System.out.print("\nVIAJE SUPERSONICO. TU TREN TARDA MENOS DE 1 MINUTO!!");
             } else {
                 // mostramos al usuario los resultados
                 System.out.print("\n\nEl tiempo de viaje es: " + td + " dias, " + th + " horas y " + tm + " minutos.");
