@@ -191,7 +191,7 @@ public class Actividad13 {
                         opt1 = Integer.parseInt(entrada.readLine());
                         validNum = true;
                     } catch (NumberFormatException e) {
-                        System.out.print("\n[ERROR]: El numero debe estar entre 0 y 59");
+                        System.out.print("\n[ERROR]: El valor introducido no es un numero");
                         validNum = false;
                     }
                 } while (!validNum);
