@@ -18,7 +18,7 @@ public class Actividad17 {
         int repetir = 0;
 
         do {
-            
+
             int bal = 0, cant = 0, num = 0, my = 0, mn = 0, sum = 0;
 
             boolean validNum = false;
@@ -46,7 +46,7 @@ public class Actividad17 {
                     validNum = false;
                 }
                 if (validNum) {
-                    if (cant < 1)  {
+                    if (cant < 1) {
                         System.out.print("\nLa cantidad no puede ser menor que 1.");
                         validNum = false;
                     }
@@ -54,7 +54,7 @@ public class Actividad17 {
             } while (!validNum);
 
             System.out.print("\nVamos a comparar...");
-            for (int i = 1; i<=cant; i++) {
+            for (int i = 1; i <= cant; i++) {
                 do {
                     System.out.print("\nIntroduce un numero: ");
                     try {
@@ -75,7 +75,8 @@ public class Actividad17 {
                 }
             }
 
-            System.out.print("\nHay " + mn + " numeros menores que baliza (" + bal +"), " + my + " mayores que baliza y la suma de estos es " + sum);
+            System.out.print("\nHay " + mn + " numeros menores que baliza (" + bal + "), " + my
+                    + " mayores que baliza y la suma de estos es " + sum);
 
             // pregunta repeticion programa
             do {
@@ -89,6 +90,6 @@ public class Actividad17 {
                 }
             } while (!validNum);
 
-        } while (repetir==0);
+        } while (repetir == 0);
     }
 }
